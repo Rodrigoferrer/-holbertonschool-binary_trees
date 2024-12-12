@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -42,4 +43,6 @@ int full_binary_tree(const binary_tree_t *tree);
 size_t binary_tree_height(const binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_height2(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
+
 #endif
